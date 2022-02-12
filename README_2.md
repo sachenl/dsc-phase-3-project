@@ -179,7 +179,7 @@ Best score are:
 
  #### Compare all the models and find the best model, then evaluate it.
  
- ```
+ 
  # When comparing the final score for training and testing data, the decision tree model give us best results. 
 # I make this model to the final one.
 
