@@ -9,15 +9,10 @@ For this project, I used several regression models to model the data from SyriaT
 
 ### Business Problem
 
-SyriaTel Customer Churn (Links to an external site.) Build a classifier to predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company. Note that this is a binary classification problem.
+Build a classifier to predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company. Note that this is a binary classification problem.
 
 Most naturally, your audience here would be the telecom business itself, interested in losing money on customers who don't stick around very long. Are there any predictable patterns here?
 
-1. polish the data which have no meaning or is null to the price.
-2. remove the features which do not contribute to the house price.
-3. check if there are some high correlated features in which some of them can be removed.
-4. build the linear regression model.
-5. check how the features can contribute to the house change.
 
 ## Plan
 Since the SyriaTel Customer Churn is a binary classification problem problem, I will try to use several different algorithms to fit the data and select one of the best one. The algorithms I will try include Logistic Regression, k-Nearest Neighbors, Decision Trees, Random Forest, Support Vector Machine. The target of the data we need to fit is the column 'churn'. The features of the data is the other columns in dataframe. However, when I load the data file into dataframe, i found some of the columns are linear correlated with each other. I need to drop one of them. We need to polish the data first.
